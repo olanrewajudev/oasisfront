@@ -4,23 +4,13 @@ import barber from '../../assets/barber.png'
 import quote from '../../assets/quote.png'
 import { Link } from "react-router-dom"
 
-import Slider from "react-slick"
 
 import image1 from '../../assets/laroche.svg'
 import image2 from '../../assets/loreal.svg'
 import image3 from '../../assets/schwar.svg'
 import image4 from '../../assets/nyx.svg'
 import Layout from "../../Component/User/Layout"
-import { igLink, fbLink, tiktokLink, xLink, snapLink, settings } from "../../Component/Utils/Utils"
 
-const socialSlider = [
-  { text: 'FOLLOW US ON INSTAGRAM', link: igLink, linktext: 'FOLLOW NOW' },
-  { text: 'FOLLOW US ON FACEBOOK', link: fbLink, linktext: 'FOLLOW NOW' },
-  { text: 'FOLLOW US ON TIKTOK', link: tiktokLink, linktext: 'FOLLOW NOW' },
-  { text: 'FOLLOW US ON TWITTER', link: xLink, linktext: 'FOLLOW NOW' },
-  { text: 'FOLLOW US ON SNAPCHAT', link: snapLink, linktext: 'FOLLOW NOW' },
-
-]
 const imageSlider = [
   { image: image1, text: 'LA ROCHE POSAY' },
   { image: image2, text: `L'OREAL` },
